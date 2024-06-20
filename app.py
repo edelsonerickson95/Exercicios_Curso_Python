@@ -51,7 +51,8 @@ while True:
             print(nunmero, produto)
 
         remover_item = input('digite o numero do produto que deseja remover: ')
-        
+
+        # converter string para inteiro e verifica se o intem existente no indice
         try:
             indince_a_remover = int(remover_item) - 1
             lista_de_compras.pop(indince_a_remover)
